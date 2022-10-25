@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-18T13:18:38.259Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="nsDB4Fc9f-24TqoDeg7M" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-25T12:07:53.617Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="jVXWsaO4E7HP728agP2n" version="20.4.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2253" dy="1913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2253" dy="1670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -103,13 +103,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BRy57ZXzOiXBV_z8K8NF-13" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;initMixin(Vue)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="400" y="-362.5" width="150" height="60" as="geometry" />
+          <mxGeometry x="410" y="-362.5" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRy57ZXzOiXBV_z8K8NF-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BRy57ZXzOiXBV_z8K8NF-14" target="BRy57ZXzOiXBV_z8K8NF-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BRy57ZXzOiXBV_z8K8NF-14" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;stateMixin(Vue)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="400" y="-252.5" width="150" height="60" as="geometry" />
+          <mxGeometry x="410" y="-252.5" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRy57ZXzOiXBV_z8K8NF-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BRy57ZXzOiXBV_z8K8NF-15" target="BRy57ZXzOiXBV_z8K8NF-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -130,10 +130,10 @@
           <mxGeometry x="410" y="87.5" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRy57ZXzOiXBV_z8K8NF-18" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;span style=&quot;&quot;&gt;设置原型方法&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;Vue.prototype._init&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="640" y="-370" width="210" height="75" as="geometry" />
+          <mxGeometry x="650" y="-370" width="210" height="75" as="geometry" />
         </mxCell>
         <mxCell id="BRy57ZXzOiXBV_z8K8NF-20" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;span style=&quot;&quot;&gt;设置原型方法&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;Vue.prototype.$set&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;span style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Vue.prototype.$delete&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Vue.prototype.$watch&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="640" y="-272.5" width="210" height="100" as="geometry" />
+          <mxGeometry x="650" y="-272.5" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="BRy57ZXzOiXBV_z8K8NF-21" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;span style=&quot;&quot;&gt;设置原型方法&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;Vue.prototype.$on&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;Vue.prototype.$once&lt;/font&gt;&lt;/div&gt;&lt;/span&gt;&lt;span style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; background-color: rgb(255, 255, 255);&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;Vue.prototype.$off&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;Vue.prototype.$emit&lt;/font&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;/span&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="647" y="-152.5" width="203" height="100" as="geometry" />
@@ -169,7 +169,7 @@
           <mxGeometry x="400" y="865" width="145" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRy57ZXzOiXBV_z8K8NF-43" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;vm.$mount(el)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="402.5" y="1270" width="145" height="60" as="geometry" />
+          <mxGeometry x="400" y="1420" width="145" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BRy57ZXzOiXBV_z8K8NF-46" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;span style=&quot;&quot;&gt;重置实例vm的生命周期相关属性&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left; background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;font color=&quot;#808080&quot;&gt;vm._watcher =&amp;nbsp;null&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#808080&quot;&gt;vm._isMounted =&amp;nbsp;false&lt;/font&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="660" y="200" width="200" height="60" as="geometry" />
@@ -202,10 +202,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BRy57ZXzOiXBV_z8K8NF-53" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;initWatch(vm, opts.watch)&lt;/div&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;opts.watch就是用户自定义的watch选项&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#808080&quot;&gt; watch: {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;&amp;nbsp; counter: function (newData, oldData) {&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;&amp;nbsp; &amp;nbsp; console.log(newData, oldData);&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;&amp;nbsp; },&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;        }&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="779.38" y="1120" width="301.25" height="142.5" as="geometry" />
+          <mxGeometry x="767.38" y="1187.5" width="301.25" height="142.5" as="geometry" />
         </mxCell>
         <mxCell id="BRy57ZXzOiXBV_z8K8NF-54" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;initComputed(vm, opts.computed)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="860" y="970" width="237.5" height="50" as="geometry" />
+          <mxGeometry x="880" y="970" width="237.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QtsyUdyrllRx52qRrB19-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#808080;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BRy57ZXzOiXBV_z8K8NF-65" target="QtsyUdyrllRx52qRrB19-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -378,40 +378,40 @@
             <mxPoint x="1690" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QtsyUdyrllRx52qRrB19-30" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;以用户自定义的computed函数作为getter创建watcher并放到vm的_computedWatchers数组下。但watcher构造时默认不会自动调用getter来立刻更新计算属性，而是等到如页面{{计算属性}}使用时再触发下面的computedGetter来触发更新&lt;/div&gt;&lt;div style=&quot;text-align: left; line-height: 18px;&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;vm._computedWatchers =&amp;nbsp;&lt;/span&gt;new Watcher(vm, opts.computed[key], noop);&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1160" y="870" width="420" height="120" as="geometry" />
+        <mxCell id="QtsyUdyrllRx52qRrB19-30" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;以用户自定义的computed函数作为getter创建computedWatcher。但因为提供了选项{lazy: true}，所以watcher构造时默认不会自动调用getter来立刻更新计算属性并触发依赖收集，而是等到如页面{{计算属性}}使用时再触发下面的computedGetter来触发更新&lt;/div&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;&amp;nbsp;vm._computedWatchers =&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#808080&quot;&gt;new &lt;/font&gt;&lt;b style=&quot;&quot;&gt;Watcher&lt;/b&gt;&lt;font color=&quot;#808080&quot;&gt;(vm, opts.computed[key], noop, {lazy: true});&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1180" y="890" width="840" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="QtsyUdyrllRx52qRrB19-31" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;将用户自定义计算属性挂到vm上面，以便页面通过{{计算属性}}直接访问。然后将该计算属性的getter定义为c&lt;span style=&quot;&quot;&gt;omputedGetter，这样一来，在页面等访问{{计算属性}}时该函数将调用&lt;/span&gt;_computedWatchers对应的watcher的getter来重新计算属性并触发所依赖属性的依赖收集&lt;/div&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;defineComputed(vm, key,&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;opts.computed[key]&lt;/span&gt;&lt;font color=&quot;#808080&quot;&gt;);&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1160" y="1000" width="430" height="99.75" as="geometry" />
+        <mxCell id="QtsyUdyrllRx52qRrB19-31" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;将用户自定义计算属性挂到vm上面，并将其getter定义为computedGetter。这样一来，在页面渲染watcher触发render时，将解析读取{{计算属性}}从而触发该getter来通知computedWatcher来重新计算属性进而触发所依赖原始属性的依赖收集，即将computedWatcher加入到原始属性的dep.subs数组中，同时该函数还会将组件的渲染watcher加入到计算属性所依赖的各个原始属性的dep.subs中，一旦原始属性改了，依赖的notify对subs一个循环，先是通知计算watcher先运行获得最新属性值，跟着是渲染watcher运行并更新真实DOM&lt;/div&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;defineComputed(vm, key,&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(128, 128, 128);&quot;&gt;opts.computed[key]&lt;/span&gt;&lt;font color=&quot;#808080&quot;&gt;);&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1180" y="1009" width="840" height="101" as="geometry" />
         </mxCell>
         <mxCell id="QtsyUdyrllRx52qRrB19-33" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#808080;entryX=-0.003;entryY=0.389;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BRy57ZXzOiXBV_z8K8NF-54" target="QtsyUdyrllRx52qRrB19-30" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1210" y="1010" as="sourcePoint" />
-            <mxPoint x="1260" y="960" as="targetPoint" />
+            <mxPoint x="1230" y="1010" as="sourcePoint" />
+            <mxPoint x="1280" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QtsyUdyrllRx52qRrB19-34" value="" style="endArrow=classic;html=1;rounded=0;fontColor=#808080;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="BRy57ZXzOiXBV_z8K8NF-54" target="QtsyUdyrllRx52qRrB19-31" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1210" y="1010" as="sourcePoint" />
-            <mxPoint x="1260" y="960" as="targetPoint" />
+            <mxPoint x="1230" y="1010" as="sourcePoint" />
+            <mxPoint x="1280" y="960" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QtsyUdyrllRx52qRrB19-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#808080;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QtsyUdyrllRx52qRrB19-35" target="QtsyUdyrllRx52qRrB19-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QtsyUdyrllRx52qRrB19-35" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;createWatcher(vm, key, opts.watch[key])&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1180" y="1161.25" width="300" height="60" as="geometry" />
+          <mxGeometry x="1168" y="1228.75" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QtsyUdyrllRx52qRrB19-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#808080;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="QtsyUdyrllRx52qRrB19-36" target="QtsyUdyrllRx52qRrB19-38" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1820" y="1191.25" as="targetPoint" />
+            <mxPoint x="1808" y="1258.75" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QtsyUdyrllRx52qRrB19-36" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;vm.$watch(key, opts.watch[key])&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1510" y="1166.25" width="250" height="50" as="geometry" />
+          <mxGeometry x="1498" y="1233.75" width="250" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QtsyUdyrllRx52qRrB19-38" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;new Watcher(vm, key, opts.watch[key])&lt;/div&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;以用户监控属性回调函数作为cb创建watcher，构造函数运行时会访问vm的key属性以收集依赖，一旦依赖数据发生变化，则会调用相应回调函数&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="1810" y="1146.25" width="280" height="90" as="geometry" />
+        <mxCell id="QtsyUdyrllRx52qRrB19-38" value="&lt;div style=&quot;background-color: rgb(255, 255, 255); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;new &lt;b&gt;Watcher&lt;/b&gt;(vm, key, opts.watch[key])&lt;/div&gt;&lt;div style=&quot;line-height: 18px;&quot;&gt;&lt;font color=&quot;#808080&quot;&gt;以用户监控属性回调函数作为cb创建watcher，构造函数运行时会访问vm的key属性以收集依赖，一旦依赖数据发生变化，则会调用相应自定义回调函数&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1798" y="1213.75" width="280" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
