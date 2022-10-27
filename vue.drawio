@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T00:28:01.658Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="NWV4SJ_3FUqYBLvt9GIL" version="20.4.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-27T00:53:37.938Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="n9OrUz99yKbNf9iT1obO" version="20.4.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2253" dy="1970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1773" dy="1727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -416,23 +416,34 @@
         <mxCell id="IAiVBDc0J_cq1cuzVByV-1" value="组件(Vue/VueComponent)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2685" y="810" width="210" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="IAiVBDc0J_cq1cuzVByV-2" value="依赖数据: any" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IAiVBDc0J_cq1cuzVByV-1">
+        <mxCell id="IAiVBDc0J_cq1cuzVByV-2" value="依赖数据: {getter, setter}" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IAiVBDc0J_cq1cuzVByV-1">
           <mxGeometry y="30" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IAiVBDc0J_cq1cuzVByV-3" value="计算属性：computedGetter(funtion)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="IAiVBDc0J_cq1cuzVByV-1">
           <mxGeometry y="60" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="IAiVBDc0J_cq1cuzVByV-9" value="依赖数据的dep(Dep)" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="3150" y="760" width="210" height="210" as="geometry" />
+          <mxGeometry x="3150" y="640" width="240" height="330" as="geometry" />
         </mxCell>
         <mxCell id="IAiVBDc0J_cq1cuzVByV-11" value="subs" style="swimlane;horizontal=0;" vertex="1" parent="IAiVBDc0J_cq1cuzVByV-9">
-          <mxGeometry x="20" y="45" width="180" height="150" as="geometry" />
+          <mxGeometry x="40" y="170" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="IAiVBDc0J_cq1cuzVByV-10" value="计算属性watcher" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="IAiVBDc0J_cq1cuzVByV-11">
           <mxGeometry x="30" y="5" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IAiVBDc0J_cq1cuzVByV-12" value="渲染watcher" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="IAiVBDc0J_cq1cuzVByV-11">
           <mxGeometry x="30" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IAiVBDc0J_cq1cuzVByV-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="IAiVBDc0J_cq1cuzVByV-9" source="IAiVBDc0J_cq1cuzVByV-48" target="IAiVBDc0J_cq1cuzVByV-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IAiVBDc0J_cq1cuzVByV-50" value="遍历通知订阅的watchers" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="IAiVBDc0J_cq1cuzVByV-49">
+          <mxGeometry x="-0.3067" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IAiVBDc0J_cq1cuzVByV-48" value="notify方法" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="IAiVBDc0J_cq1cuzVByV-9">
+          <mxGeometry x="70" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="IAiVBDc0J_cq1cuzVByV-24" value="渲染watcher(Watcher)" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="3155" y="1130" width="200" height="200" as="geometry" />
@@ -492,7 +503,7 @@
         <mxCell id="IAiVBDc0J_cq1cuzVByV-39" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="2680" y="720" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="IAiVBDc0J_cq1cuzVByV-41" value="notify计算属性watcher" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IAiVBDc0J_cq1cuzVByV-2" target="IAiVBDc0J_cq1cuzVByV-10">
+        <mxCell id="IAiVBDc0J_cq1cuzVByV-41" value="setter调用数据对应的dep的notify" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="IAiVBDc0J_cq1cuzVByV-2" target="IAiVBDc0J_cq1cuzVByV-48">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="2700" y="1000" as="sourcePoint" />
             <mxPoint x="2750" y="950" as="targetPoint" />
